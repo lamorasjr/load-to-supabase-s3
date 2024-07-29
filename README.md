@@ -41,5 +41,17 @@ mkdir data
 ```
 
 6. Create the `.env` file as per `.env example` and update the Supabase s3 variables.
+```
+SUPABASE_S3_BUCKET = load-to-s3-supabase
+SUPABASE_S3_ENDPOINT = https://cldoadqpnsekaseaxseq.supabase.co/storage/v1/s3
+SUPABASE_S3_REGION = eu-central-1
+SUPABASE_S3_ACCESS_KEY = 4bc8ff474e0793020bb7e9ab8c7f33a3
+SUPABASE_S3_SECRET_KEY = c35a585e0828c8688d9f3708c0cc279bc68ba3f58851d1d1510de3bb2e4e0e7e
+```
+
+7. In the terminal run the Python script:
+```bash
+poetry run python scr/main.py
+```
 
 
